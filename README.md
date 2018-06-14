@@ -12,3 +12,4 @@ Then run the server.
 ```js
 npm run start
 ```
+![Virtual Lotto](https://github.com/nparfen/Virtual-Lotto/blob/master/06jQdvTACq.gif)
