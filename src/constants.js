@@ -1,0 +1,14 @@
+export const WEB3_INITIALIZED = 'WEB3_INITIALIZED';
+export const LOAD_MATAMASK_WALLET_ERROR = 'Load metamask wallet error, maybe try Metamask later, or upload a wallet json file.';
+export const EMPTY_METAMASK_ACCOUNT = 'You can choose one MetaMask wallet by unlocking it.';
+export const METAMASK_ACCOUNT = 'You have choosen the MetamMask Wallet:';
+export const NETWORK_ERROR = 'Network error, please check it.';
+export const WRONG_NETWORK_ERROR = 'You can choose only Rinkeby network.';
+export const METAMASK_NOT_INSTALL = 'You must install MetaMask before start.';
+export const SET_METAMASK_ACCOUNT = 'SET_METAMASK_ACCOUNT';
+export const SET_METAMASK_NETWORK = 'SET_METAMASK_NETWORK';
+export const REMOVE_METAMASK_NETWORK = 'REMOVE_METAMASK_NETWORK';
+export const REMOVE_METAMASK_ACCOUNT = 'REMOVE_METAMASK_ACCOUNT';
+export const SET_LOTTO_DATA = 'SET_LOTTO_DATA';
+export const SET_LOTTO_BETS = 'SET_LOTTO_BETS';
+export const REMOVE_LOTTO_DATA = 'REMOVE_LOTTO_DATA';
