@@ -60,25 +60,6 @@ class Lotto extends Component {
         }
     }
 
-    setFIlter = () => {
-
-        let {web3} = this.props;
-        let that = this;
-
-        if (web3 !== null) {
-
-            this.filter = web3.eth.filter('latest');
-            this.filter.watch(function (err, log) {
-                if (err) {
-                    console.log(err);
-                } else {
-                    that.setLottoData();
-                    console.log(log); 
-                }
-            });
-        }
-    }
-
     fetchWeb3 = () => {
 
         let web3 = window.web3;
@@ -149,6 +130,24 @@ class Lotto extends Component {
               }
             }
           });
+        }
+    }
+
+    setFIlter = () => {
+
+        let {web3} = this.props;
+        let that = this;
+
+        if (web3 !== null) {
+
+            this.filter = web3.eth.filter('latest');
+            this.filter.watch(function (err, log) {
+                if (err) {
+                    console.log(err);
+                } else {
+                    that.setLottoData();
+                }
+            });
         }
     }
 
