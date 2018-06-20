@@ -6,6 +6,3 @@
 # production
 /build
 /build_webpack
-
-/config
-
